@@ -23,7 +23,7 @@ public abstract class House {
         addPlumbing();
     }
 
-    public void prepFoundation(){       System.out.println("Foundation: Adding a crawlspace, and a strong backbone.");    }
+    public void prepFoundation(){System.out.println("Foundation: Adding a crawlspace, and a strong backbone.");}
     public abstract void  createFrame();
     public void installDrywall(){System.out.println("Drywall: Creating the interior walls.");}
     public void addWindows(){System.out.println("Windows: Putting in the glass for the windows.");}
